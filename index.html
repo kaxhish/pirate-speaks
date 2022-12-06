@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>pirate Speaks</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-rose-50">
+   
+    <div class="m-24">
+      <div class="flex mt-52">
+      <img class="w-52 h-52" src="https://clipartcraft.com/images/pirates-of-the-caribbean-logo-icon-8.png" />
+
+      <form>
+      <textarea id="fill" cols=100 class="ml-6 h-52 rounded-md border-4 border-fuchsia-500 border-solid"
+      style="width:50pc;"
+       placeholder="Text to be translated here">
+    </textarea>
+    <button type="submit" id="btn" class="bg-fuchsia-500 p-4 px-6 rounded-md" 
+    style="position: relative; right:130px; bottom: 50px;">Translate</button>
+  </form>
+    </div>
+      <div id="minionResult" class=" ml-20 h-52 rounded-md border-4 border-fuchsia-500 border-solid" style="width:60pc;"></div>
+    </div>
+
+    <script src="./index.js"> </script>
+
+   
+  </body>
+</html>
