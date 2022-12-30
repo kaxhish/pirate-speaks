@@ -1,0 +1,41 @@
+body{
+    background-color: #fff1f2;
+  }
+  .page{
+margin: 15pc;
+  }
+  .row{
+    display: flex;
+    margin: 20px;
+  }
+img{
+width: 10pc;
+height: 10pc;
+}
+textarea{
+border: 5px solid #d946ef;
+border-radius: 15px;
+margin-left: 20px;
+height: 10pc;
+width: 45pc;
+}
+#btn{
+background-color: #d946ef;
+width:8pc;
+height: 30px;
+border-radius: 15px;
+position: relative;
+font-size: 20px;
+right:150px; 
+bottom: 30px;
+padding: 30px;
+
+}
+#minionResult{
+border: 5px solid #d946ef;
+border-radius: 15px;
+margin-top: 50px;
+width: 60pc;
+height: 200px;
+padding: 20px;
+}
